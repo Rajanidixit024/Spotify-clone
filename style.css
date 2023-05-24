@@ -58,6 +58,7 @@ nav ul li{
     width: 80vw;
     text-align: center;
     size: 1ex;
+    cursor: pointer;
 }
 .icons{
     color: white;
@@ -92,4 +93,5 @@ nav ul li{
 .songInfo{
     position: absolute;
     left: 10vw;
+    font-family: 'Varela Round', sans-serif;
 }

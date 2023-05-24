@@ -31,3 +31,65 @@ nav ul li{
     font-weight: bolder;
     font-size: 1.3rem;
 }
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 35px auto;
+    padding: 12px;
+    width: 70%;
+    background-image: url(jubin.webp);
+    border-radius: 12px;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    size: 1ex;
+}
+.icons{
+    color: white;
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+   height: 40px;
+   display: flex;
+   background-color: white;
+   align-items: center;
+   justify-content: space-between;
+   color: black;
+   margin: 14px 0;
+   border-radius: 30px;
+}
+.songItem img{
+  width: 40px;
+  margin: 0 20px;
+}
+.songItemContainer{
+    margin-top: 40px;
+}
+.duration{
+    margin: 0 12px;
+}
+.duration i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
